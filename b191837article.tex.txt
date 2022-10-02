@@ -1,0 +1,74 @@
+ \documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+%opening
+\title{My profile}
+\author{Profile}
+
+\begin{document}
+
+\maketitle
+
+\section{\color{red}{Introduction about Myself}}
+
+Name : M.Gayathri\\
+id: B191837\\
+
+Father's name: M.Ravi kumar\\
+
+Mother's name : M.Umarani\\
+
+Address : RGUKT Basar\\
+
+
+
+\section{\color{purple}{Marks}}
+\begin{table}[h]
+ \centering
+ \caption{My marks in tabular from:}
+ \begin{tabular}{|l  |l  |l |}
+ \hline
+ S.no & Subject & Marks\\
+ \hline
+  1. & Mathemastics & 90\\
+  \hline
+  2. & Physics & 80\\
+  \hline 
+  3. & Chemistry & 95\\
+  \hline
+
+ \end{tabular}
+
+\end{table}
+
+\section{\color{yellow}{Hobbies}}
+\begin{enumerate}
+ \item Drawing \\
+ \item listening music \\
+\item Reading books\\
+
+\end{enumerate}
+
+
+\section{\color{pink}{Extra curricular activities}}
+\begin{itemize}
+ \item Dancing
+ \item Drawing
+\end{itemize}
+
+\section{\color{red}{Achievements}}
+ICSE certificate with distincton
+
+\section{\color{blue}{RGUKT}}
+\begin{figure}[h]
+ \centering
+ \includegraphics[]{pic.jpeg}
+\end{figure}
+
+
+
+
+\end{document}
+
